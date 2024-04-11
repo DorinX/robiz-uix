@@ -1,0 +1,22 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.logo {
+    //margin-left: 100px;
+    width: 200px;
+    min-width: 200px;
+    height: 20px;
+}
+
+.st0 {
+    fill: white;
+}
+
+@media only screen and (max-width: 250px) {
+    .logo {
+        //margin-left: 100px;
+        width: 100px;
+        min-width: 100px;
+    }
+  }
